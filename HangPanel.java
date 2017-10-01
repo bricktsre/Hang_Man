@@ -87,6 +87,7 @@ public class HangPanel extends JPanel{
         }
         alreadyguessed.setText(temp);
         letterentry.setText("");
+	letterentry.requestFocusInWindow();
 	}
 	
 	/*
