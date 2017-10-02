@@ -106,7 +106,7 @@ public class DeadMan extends JPanel{
     }
 	
 	/*adds another wrong guess*/
-	public void anotherOne(){
+	public void wrongGuess(){
 		wrongguesscount++;
 	}
 
