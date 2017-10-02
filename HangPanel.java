@@ -59,7 +59,7 @@ public class HangPanel extends JPanel{
 	private void letterguess(String a){			
 		boolean b = trial.checkletter(a);
 		if(!b)
-			dm.anotherOne();
+			dm.wrongGuess();
 		if(trial.Won()) {
 			update();
 			gameOver(true);
